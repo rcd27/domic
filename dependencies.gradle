@@ -49,6 +49,12 @@ ext.testLibraries = [
         assertJ      : "org.assertj:assertj-core:$versions.assertJ",
 ]
 
+ext.androidTestLibraries = [
+        runner : "androidx.test:runner:1.1.0",
+        rules : "androidx.test:rules:1.1.0",
+        espresso : "androidx.test.espresso:espresso-core:3.1.0",
+]
+
 ext.sampleLibraries = [
         rxRedux: "com.freeletics.rxredux:rxredux:$versions.rxRedux",
 ]
